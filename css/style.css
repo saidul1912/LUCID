@@ -23,17 +23,19 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 
+
 }
 
 .nav-link {
     color: white !important;
     font-weight: 600;
     font-size: 16px;
+
 }
 
 .nav-link:hover {
     color: #008ed6 !important;
-    background-image: url(../img/divider.png) center bottom no-repeat;
+    background: url(../img/divider.png) center bottom no-repeat;
     font-weight: 600;
 
 }
@@ -115,24 +117,146 @@ header {
 .features {
 
     text-align: center;
+
+    margin-bottom: 80px;
 }
 
 .features-section {
-    margin: 80px 0px;
+    padding: 80px 0px;
+    border-bottom: 2px solid #f6f6f6;
 }
 
-.features h6 {}
+.features h6 {
+    color: #008ed6;
 
-.features h2 {}
+    text-transform: uppercase;
+
+    font-weight: 600;
+
+    word-spacing: 2px;
+}
+
+.features h2 {
+
+    font-size: 45px;
+
+    font-weight: 600;
+
+    margin-bottom: 25px;
+}
 
 .features img {}
 
-.features-overview {}
+.features-overview {
+    text-align: center;
+}
 
-.features-header {}
+.features-header {
+    width: 80px;
+    height: 80px;
+    /* background: red; */
+    line-height: 74px;
+    border-radius: 50%;
+    border: 1px solid rgb(225 225 225);
+    margin: 0 auto;
+    margin-bottom: 20PX;
+}
 
 .features-header img {}
 
-.fecard-body h5 {}
+.fecard-body h5 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
 
-.fecard-footer p {}
+.fecard-footer p {
+    color: #b4b4b4;
+    width: 205px;
+    margin: 0 auto;
+}
+
+
+/*===========================
+   about section css code
+============================*/
+.about {
+    padding: 80px 0px;
+}
+
+.about-img {
+    width: 500px;
+}
+
+.about-img img {
+    width: 100%;
+    padding: 0px 10px;
+}
+
+.device h6 {
+    color: #008ed6;
+
+    text-transform: uppercase;
+
+    font-weight: 600;
+
+
+}
+
+.device h2 {
+    font-size: 45px;
+
+    font-weight: 600;
+}
+
+.device p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #b4b4b4;
+    width: 420px;
+    margin-bottom: 26px;
+}
+
+.device-dtls ul {
+    padding: 0px;
+}
+
+.device-dtls ul li {
+    list-style: none;
+    line-height: 40px;
+
+}
+
+.device-dtls ul li i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #008ed6;
+}
+
+.device-dtls ul li span {
+    font-size: 18px;
+}
+
+
+/*===========================
+   customize section css code
+============================*/
+
+.customize {
+    background: #f2f2f2;
+    padding: 100px 0px;
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+}
+
+.customize-img {
+
+    width: 686px;
+
+    margin-top: -55px;
+}
+
+.customize-img img {
+
+    width: 100%;
+}
